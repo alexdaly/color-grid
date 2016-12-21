@@ -12,9 +12,9 @@ void setup(){
 	noFill();
 	ellipseMode(CORNER);
 
-	f = createFont("Arial", 48);
-    textFont(f, 10);
-    textAlign(CENTER);
+	// f = createFont("Arial", 48);
+  //   textFont(f, 10);
+  //   textAlign(CENTER);
 
     upperLeft = loadShape("upperLeft.svg");
     upperRight = loadShape("upperRight.svg");
