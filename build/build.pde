@@ -34,8 +34,6 @@ void draw(){
 			int x = sqSize * i;
 			int y = sqSize * j;
 
-            println("i: "+ i % 2);
-
 			if ((i + j) % 2 == 0 && i % 2 == 0){
 				strokeWeight(3);
 				stroke(0, 255, 255);
@@ -49,14 +47,14 @@ void draw(){
    				strokeWeight(3);
    				//ellipse(x, y, sqSize, sqSize);
    				shape(lowerRight, x, y, sqSize, sqSize);
-				lowerRight.disableStyle();
+					lowerRight.disableStyle();
 
    			} else if ((i + j) % 2 == 1 && i % 2 == 0){
    				stroke(255, 0, 255);
    				strokeWeight(3);
    				//ellipse(x, y, sqSize, sqSize);
    				shape(lowerLeft, x, y, sqSize, sqSize);
-				lowerLeft.disableStyle();
+					lowerLeft.disableStyle();
 
    			} else if ((i + j) % 2 == 1 && i % 2 == 1){
    				stroke(0, 255, 0);
